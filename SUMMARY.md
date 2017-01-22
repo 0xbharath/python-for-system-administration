@@ -1,3 +1,5 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Workshop overview](README.md)
+* [Virtualenv](chapter1.md)
+
