@@ -1,19 +1,21 @@
 
 
+# Python package management
+
 One of the great things about Python is the wide range of third party libraries that are available. When ever you are building a solution in Python
-it is always better approach to look for pre-existing libraries, chances are that there is already a library that does what you intend to do.
+it is always a good idea to look for any pre-existing libraries, chances are that there is already a library that does what you intend to do.
 
-Understanding the Python packaging ecosystem could be a little tricky for a new Python developer. Let's take a look at how to download and install Python packages. There are multiple ways of installing externl packages, but we'll stick to recommended way of doing it, using [pip](https://pip.pypa.io/en/stable/)
+Understanding the Python packaging ecosystem could be a little tricky for a new Python developer. Let's take a look at how to download and install Python packages. There are multiple ways of installing external packages, but we'll stick to recommended way of doing it, using [pip](https://pip.pypa.io/en/stable/).
 
 
-# pip
+## pip
 
 [pip documentation](https://pip.pypa.io)
 
 - pip is a tool for installing Python packages from the Python Package Index(PyPI).
 - Python Package Index is a repository of software for the Python programming language.
 
-## Installing pip
+#### Installing pip
 
 [pip installation guide](https://pip.pypa.io/en/stable/installing/)
 
@@ -26,7 +28,7 @@ sudo apt-get install python-pip
 ```
 
 
-## Upgrading pip
+#### Upgrading pip
 
 On Linux or macOS:
 
@@ -35,7 +37,7 @@ On Linux or macOS:
 pip install --upgrade pip
 ```
 
-## Installing packages using pip
+#### Installing packages using pip
 
 - pip supports installing from PyPI, version control, local projects, and directly from distribution files.
 
@@ -45,7 +47,7 @@ $ pip install package_name==1.0.4     # specific version
 $ pip install 'package_name>=1.0.4'     # minimum version
 ```
 
-## Requirements Files
+#### Requirements Files
 
 - "Requirements files" are files containing a list of items to be installed using pip install like so:
 
@@ -70,7 +72,7 @@ pip install -r requirements.txt
 ```
 
 
-## Listing Packages
+#### Listing Packages
 
 - List installed packages.
 
@@ -106,7 +108,7 @@ Location: /usr/lib/python2.7/dist-packages
 Requires: 
 ```
 
-## Searching for Packages
+#### Searching for Packages
 
 - pip can search PyPI for packages using the pip search command:
 

@@ -1,11 +1,10 @@
 # Summary
 
 * [Python for system administration](README.md)
-    - [Workshop overview](/workshop_intro/license.md)
+    - [Workshop overview](/workshop_intro/workshop_overview.md)
     - [License & Attributions](/workshop_intro/license.md)
     - [Bigger picture](/workshop_intro/roadmap.md)
     - [Speakers](/workshop_intro/speakers.md)
-    - [Bigger picture](/workshop_intro/license.md)
 
 * [Managing Python](/python_essentials/managing_python.md)
     - [Managing Python packages](/python_essentials/package_management.md)
@@ -18,6 +17,12 @@
     - shutil
     - sh
     - envoy
+    
+* SSH automation
+    - paramiko
+    - netmiko
+
+* File
 
 
 DOCUMENTATION - book
